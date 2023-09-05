@@ -22,7 +22,20 @@ nav{
   justify-content: space-between;
   align-items:left ;
 }
-nav h3{
+nav h4{
+  width: 99px;
+  height: 25px;
+  top: 53px;
+  left: 121px;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left; 
+
+  
+
 }
 .nav-links{
   padding-left: 25%;
@@ -38,6 +51,14 @@ nav h3{
   position: relative;
 }
 .nav-links ul li a{
+  width: 61px;
+  height: 19px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
   color: #000;
   text-decoration: none;
   font-size: 16px;
@@ -50,8 +71,7 @@ nav h3{
   top: 38px;
   left: 1186px;  
   text-align: center;
-  background: #4F46BA;
-  
+  background: #4F46BA; 
 }
 
 .hero{
@@ -186,9 +206,12 @@ height: 740px;
   overflow: hidden;
   margin-bottom: 10%;
 } 
+.automated__portfolio{
+  background-color: #FAFBFF;
+  padding-bottom: 5%;
+}
 .portfolio{
   
-  background-color: #FAFBFF;
   margin-top: 15%;
   padding-left: 5%;
   width: 100%;
@@ -228,7 +251,6 @@ text__test p{
   margin-left: 12%;
 }
 .box{
-  background-color: #FAFBFF;
   background-size: cover;
   margin-left: 5%;
   text-align: center;
@@ -250,21 +272,27 @@ p{
   padding: 10px;
 }
 .row{
-  width: 1005;
-  border: 1px solid #DBE4E9
+  width: 1202px;
+  height: 382px;
+  top: 1451px;
+  left: 121px;
+  border: 1px;
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
 .course-col{
+  width: 380px;
+  height: 382px;
+  top: 1451px;
+  left: 532px;
+  border: 1px solid red;
   flex-basis: 31%;
   background: #fff;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-  transition: 0.5s;
-
 }
 
 h3{
@@ -272,8 +300,23 @@ h3{
   font-weight: 600;
   margin: 10px 0;
 }
+.number{
+  width: 28px;
+  height: 30px;
+  top: 1472px;
+  left: 965px;
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
 
 .course-col img{
+  margin-top: 20%;
   width: 50px;
   height: 45px;
   top: 1546px;
@@ -287,7 +330,6 @@ h3{
 }
 .payment img{
   margin-left: 10%;
- width: 80%;
   width: 500px;
   height: 400px;
   top: 1972.00048828125px;
@@ -295,6 +337,7 @@ h3{
 }
 .choose{
   display: flex;
+  padding-top: 10%;
 }
 .track{
   margin-left: 10%;
